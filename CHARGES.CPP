@@ -54,6 +54,10 @@ int main() {
                         dist += 2;
                     else
                         dist -= 2;
+                } else {
+                    //it will go away from one and 
+                    //near the other. Overall result
+                    //will remain the same.
                 }
             }
             cout << dist << endl;
